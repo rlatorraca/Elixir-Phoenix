@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Elixir_Phoenix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Elixir_Phoenix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/lib/cards.ex" beforeDir="false" afterPath="$PROJECT_DIR$/cards/lib/cards.ex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +38,23 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GoLang/AprendaGoLang" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.16206896" />
+    <property name="settings.editor.selected.configurable" value="Elixir Compiler" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +66,11 @@
       <updated>1606424665213</updated>
       <workItem from="1606424666785" duration="1316000" />
       <workItem from="1606500251998" duration="2492000" />
-      <workItem from="1606585959096" duration="4834000" />
+      <workItem from="1606585959096" duration="6226000" />
+      <workItem from="1606594908762" duration="2420000" />
+      <workItem from="1606597639541" duration="193000" />
+      <workItem from="1606597938233" duration="73000" />
+      <workItem from="1606598255447" duration="631000" />
     </task>
     <servers />
   </component>
@@ -77,5 +100,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
