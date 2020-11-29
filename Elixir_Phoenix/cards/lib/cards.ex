@@ -1,22 +1,7 @@
 defmodule Cards do
   @moduledoc """
-  Documentation for `Cards`.
+    Provide methods for creating and handling a poker deck of cards.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Cards.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
-
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
     suits = ["Spade", "Club", "Heart", "Diamond"]
@@ -51,4 +36,34 @@ defmodule Cards do
     file = :erlang.term_to_binary(deck)
     File.write(filename, file)
   end
+
+  def load(filename) do
+
+    # Expanded Version - Pattern Matching
+    # {status, file} = File.read(filename)
+    #case status do
+    #  :ok -> :erlang.binary_to_term file
+    #  :error -> "That file does not exist"
+    #end
+
+    case File.read(filename) do
+      {:ok, file} -> :erlang.binary_to_term file
+      {:error, _reason} -> "That file does not exist"
+    end
+
+  end
+
+  def create_hand(hand_size) do
+
+    # Expanded Version (no pipeline)
+    # deck = Cards.create_deck()
+    # deck = Cards.shuffle(deck)
+    # hand = Cards.deal(deck, hand_size)
+
+    # Using Pipeline
+    Cards.create_deck
+      |> Cards.shuffle
+      |> Cards.deal(hand_size)
+  end
+
 end
