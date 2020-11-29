@@ -2,6 +2,10 @@ defmodule Cards do
   @moduledoc """
     Provide methods for creating and handling a poker deck of cards.
   """
+
+  @doc"""
+    Returns a list of strings representing a deck of pocker cards.
+  """
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
     suits = ["Spade", "Club", "Heart", "Diamond"]
@@ -24,10 +28,30 @@ defmodule Cards do
     Enum.shuffle(deck)
   end
 
+  @doc"""
+    Determines whether a deck contains a given card
+
+  ## Examples
+
+        iex> deck = Cards.create_deck
+        iex> Cards.contains?(deck, "Jack of Club")
+        true
+  """
   def contains?(deck, card) do
     Enum.member?(deck, card)
   end
 
+  @doc"""
+    Split a deck into a hand and the remainder of the deck.
+    The  `hand_size` argument indicates hwo many cards should be in the hand.
+  ## Examples
+
+        iex> deck = Cards.create_deck
+        iex> {hand, deck} = Cards.deal(deck,5)
+        iex> hand
+        ["Ace of Spade", "Two of Spade", "Three of Spade", "Four of Spade", "Five of Spade"]
+
+  """
   def deal(deck, hand_size) do
     Enum.split(deck, hand_size)
   end
