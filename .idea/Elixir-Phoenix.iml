@@ -6,7 +6,7 @@
     <output-test url="file:///test/Elixir-Phoenix" />
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Erlang for Elixir 23" jdkType="Erlang SDK for Elixir SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
