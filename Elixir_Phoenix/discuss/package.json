@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "webpack": "^5.9.0"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+  }
+}
