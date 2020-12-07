@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/discuss/priv/repo/migrations/20201207181004_add_topics.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/assets/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/assets/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/page/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/page/index.html.eex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +45,6 @@
     <property name="project.structure.side.proportion" value="0.16206896" />
     <property name="settings.editor.selected.configurable" value="Elixir Compiler" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +64,8 @@
       <workItem from="1606680565749" duration="2817000" />
       <workItem from="1606763775697" duration="818000" />
       <workItem from="1607001959812" duration="681000" />
-      <workItem from="1607098522783" duration="5603000" />
+      <workItem from="1607098522783" duration="5975000" />
+      <workItem from="1607361302232" duration="1583000" />
     </task>
     <servers />
   </component>
