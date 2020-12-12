@@ -1,7 +1,7 @@
 <%= form_for @changeset, Routes.topic_path(@conn, :create), fn f -> %>
 
     <div class="form-group">
-        <%= text_input f, :title, placeholder: "Title", class: "form-control" %>
+        <%= text_input f, :title, placeholder: "Discuss Title", class: "form-control" %>
         <%= error_tag f, :title %>
     </div>
 
