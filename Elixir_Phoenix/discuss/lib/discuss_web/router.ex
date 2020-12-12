@@ -23,7 +23,7 @@ defmodule DiscussWeb.Router do
     #get "/topics/{:id}/edit ", TopicController, :edit
 
     # POST
-    #post "/topics" , TopicController, :create
+    post "/topics" , TopicController, :create
 
     # PUT
     #put "/topics/{:id}" , TopicController, :update
