@@ -36,4 +36,8 @@ defmodule DiscussWeb.TopicController do
     topics = Repo.all(Topic)
     render(conn, "index.html", topics: topics)
   end
+
+  def edit(conn, %{"id" => topic_id}) do
+
+  end
 end
