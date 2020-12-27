@@ -18,19 +18,21 @@ defmodule DiscussWeb.Router do
 
     # GET
     # get "/", PageController, :index
-    get "/", TopicController, :index
-    #get "/topics", TopicController, :index
-    get "/topics/new", TopicController, :new
-    get "/topics/:id/edit", TopicController, :edit
+    # get "/", TopicController, :index
+    # get "/topics", TopicController, :index
+    # get "/topics/new", TopicController, :new
+    # get "/topics/:id/edit", TopicController, :edit
 
     # POST
-    post "/topics" , TopicController, :create
+    # post "/topics" , TopicController, :create
 
     # PUT
-    put "/topics/:id" , TopicController, :update
+    #put "/topics/:id" , TopicController, :update
 
     # DELETE
-    #delete "/topics/{:id}" , TopicController, :delete
+    #delete "/topics/:id" , TopicController, :delete
+
+    resources "/", TopicController
   end
 
   # Other scopes may use custom stacks.
