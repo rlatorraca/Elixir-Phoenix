@@ -1,0 +1,12 @@
+h3 {
+    margin-top: 20px;
+}
+
+a:first-child {
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

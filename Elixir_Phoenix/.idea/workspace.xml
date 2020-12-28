@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/discuss/.gitignore.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/auth_controller.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/priv/repo/migrations/20201228190116_add_users.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/layout/app.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/layout/app.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/router.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/mix.exs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,9 @@
       <workItem from="1607098522783" duration="5975000" />
       <workItem from="1607361302232" duration="4140000" />
       <workItem from="1608670164824" duration="25000" />
-      <workItem from="1608826511382" duration="3001000" />
+      <workItem from="1608826511382" duration="3711000" />
+      <workItem from="1609174644970" duration="1096000" />
+      <workItem from="1609175749402" duration="6282000" />
     </task>
     <servers />
   </component>
