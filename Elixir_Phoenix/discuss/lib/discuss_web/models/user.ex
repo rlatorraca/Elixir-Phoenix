@@ -1,6 +1,8 @@
 defmodule DiscussWeb.User do
   # diz ao Phoenix que sera um MODEL (e usara as funcoes pre-definidas de model
-  use DiscussWeb, :model
+  use Ecto.Schema
+  import Ecto.Changeset
+
 
   # Mostra como sera o schema dentro do DB
   schema "users" do
