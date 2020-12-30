@@ -6,14 +6,14 @@ defmodule DiscussWeb.AuthController do
   alias DiscussWeb.User
   alias Discuss.Repo
 
-  def callback(%{assigns: %{ueberauth_auth: auth}} = conn, Caparams) do
+  def callback(%{assigns: %{ueberauth_auth: auth}} = conn, params) do
     # Troubleshooting logging info for OAuth
     IO.puts "=========="
     IO.inspect(conn.assigns)
     IO.puts "=========="
-    IO.puts "++++++++++"
-    IO.inspect(params)
-    IO.puts "++++++++++"
+    # IO.puts "++++++++++"
+    # IO.inspect(params)
+    #  IO.puts "++++++++++"
     user_params = %{token: auth.credentials.token, email: auth.info.email, provider: "github"}
     changeset = User.changeset(%User{}, user_params)
 

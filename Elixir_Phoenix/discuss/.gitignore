@@ -34,4 +34,4 @@ npm-debug.log
 #/priv/static/
 
 # Variaveis do OAuth usando o github 
-.env
+config/.env
