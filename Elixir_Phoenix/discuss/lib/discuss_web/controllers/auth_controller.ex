@@ -50,4 +50,14 @@ defmodule DiscussWeb.AuthController do
     end
   end
 
+  def signout(conn, _params) do
+    conn
+      # bad way to do the signout
+      #   |> put_session(:user_id, nil)
+
+      # Good way to do the signout
+      |> configure_session(drop: true)
+      |> redirect(to: Routes.topic_path(conn, :index))
+  end
+
 end

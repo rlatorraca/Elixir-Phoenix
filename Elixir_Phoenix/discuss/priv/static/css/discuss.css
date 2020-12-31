@@ -10,3 +10,8 @@ a:first-child {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+.signInOut {
+    font-size: 16px;
+    padding: 0;
+}
