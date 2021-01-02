@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/comment.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/priv/repo/migrations/20210102172013_add_comments.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/.gitignore.swp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/models/topic.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/topic.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/discuss/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/discuss/lib/discuss_web/models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/discuss/lib/discuss_web/models" />
       <recent name="$PROJECT_DIR$/discuss/config" />
     </key>
   </component>
@@ -97,7 +102,7 @@
       <workItem from="1609174644970" duration="1096000" />
       <workItem from="1609175749402" duration="7076000" />
       <workItem from="1609442678853" duration="478000" />
-      <workItem from="1609597771964" duration="2880000" />
+      <workItem from="1609597771964" duration="4193000" />
     </task>
     <servers />
   </component>

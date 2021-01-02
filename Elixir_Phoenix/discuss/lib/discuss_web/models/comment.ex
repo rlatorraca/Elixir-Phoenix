@@ -1,19 +1,20 @@
-defmodule DiscussWeb.Topic do
+defmodule DiscussWeb.Comment do
   use Ecto.Schema
   import Ecto.Changeset
 
-  schema "topics" do
-    field :title, :string
-
+  schema "comments" do
+    field :content, :string
     belongs_to :user, DiscussWeb.User
-    has_many :comments, DiscussWeb.Comment
+    belongs_to :topic, DiscussWeb.Topic
+
+    timestamps()
   end
 
   #faz a validacao das mudancas dentro das tabelas do DB
   # the return vai ser um Changeset objeto
   def changeset(struct, params \\%{}) do
     struct
-    |> cast(params, [:title])
-    |> validate_required([:title])
+    |> cast(params, [:content])
+    |> validate_required([:content])
   end
 end
