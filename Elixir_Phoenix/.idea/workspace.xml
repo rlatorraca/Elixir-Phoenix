@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/discuss/.gitignore.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/auth_controller.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discuss/priv/repo/migrations/20201228190116_add_users.exs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/router.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/router.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/mix.exs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/.gitignore.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +40,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GoLang/AprendaGoLang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/discuss/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.16206896" />
     <property name="settings.editor.selected.configurable" value="Elixir Compiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/discuss/config" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -88,7 +95,9 @@
       <workItem from="1608670164824" duration="25000" />
       <workItem from="1608826511382" duration="3711000" />
       <workItem from="1609174644970" duration="1096000" />
-      <workItem from="1609175749402" duration="6282000" />
+      <workItem from="1609175749402" duration="7076000" />
+      <workItem from="1609442678853" duration="478000" />
+      <workItem from="1609597771964" duration="2880000" />
     </task>
     <servers />
   </component>
