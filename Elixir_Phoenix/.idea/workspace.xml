@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/comment.ex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discuss/priv/repo/migrations/20210102172013_add_comments.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/comments_channel.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discuss/priv/static/js/socket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/user_socket.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/user_socket.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/controllers/topic_controller.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/models/topic.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/topic.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/models/user.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +62,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +102,8 @@
       <workItem from="1609174644970" duration="1096000" />
       <workItem from="1609175749402" duration="7076000" />
       <workItem from="1609442678853" duration="478000" />
-      <workItem from="1609597771964" duration="4193000" />
+      <workItem from="1609597771964" duration="4813000" />
+      <workItem from="1609697609778" duration="5311000" />
     </task>
     <servers />
   </component>

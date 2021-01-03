@@ -44,9 +44,6 @@ defmodule DiscussWeb.TopicController do
   end
 
   def index(conn, _params) do
-    IO.puts "=========="
-    IO.inspect(conn.assigns)
-    IO.puts "=========="
     topics = Repo.all(Topic)
     render(conn, "index.html", topics: topics)
   end
@@ -92,6 +89,8 @@ defmodule DiscussWeb.TopicController do
     topic = Repo.get!(Topic, topic_id)
     render(conn, "show.html", topic: topic)
   end
+
+
 
   def check_topic_owner(conn, _params) do
     %{params: %{"id" => topic_id}} = conn
