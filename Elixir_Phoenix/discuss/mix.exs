@@ -47,7 +47,8 @@ defmodule Discuss.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:ueberauth, "~> 0.6"},
-      {:ueberauth_github, "~> 0.8"}
+      {:ueberauth_github, "~> 0.8"},
+      {:phoenix_pubsub, "~> 2.0"}
     ]
   end
 
