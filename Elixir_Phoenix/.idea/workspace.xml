@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bbe852bc-ce23-4ae5-9a9d-7ab016fb7e24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/assets/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/assets/js/socket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/comments_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/comments_channel.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/priv/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/priv/static/js/app.js" afterDir="false" />
     </list>
@@ -90,7 +88,7 @@
       <workItem from="1609442678853" duration="478000" />
       <workItem from="1609597771964" duration="4813000" />
       <workItem from="1609697609778" duration="12587000" />
-      <workItem from="1609767557409" duration="4557000" />
+      <workItem from="1609767557409" duration="8135000" />
     </task>
     <servers />
   </component>
