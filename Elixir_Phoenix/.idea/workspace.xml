@@ -7,10 +7,8 @@
       <change beforePath="$PROJECT_DIR$/discuss/assets/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/assets/js/socket.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/comments_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/channels/comments_channel.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/index.html.eex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/mix.exs" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/mix.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/mix.lock" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/mix.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/lib/discuss_web/templates/topic/show.html.eex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discuss/priv/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/discuss/priv/static/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discuss/priv/static/js/socket.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +62,6 @@
       <recent name="$PROJECT_DIR$/discuss/config" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,7 +89,8 @@
       <workItem from="1609175749402" duration="7076000" />
       <workItem from="1609442678853" duration="478000" />
       <workItem from="1609597771964" duration="4813000" />
-      <workItem from="1609697609778" duration="12468000" />
+      <workItem from="1609697609778" duration="12587000" />
+      <workItem from="1609767557409" duration="4557000" />
     </task>
     <servers />
   </component>
