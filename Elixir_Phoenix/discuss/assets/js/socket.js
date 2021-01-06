@@ -73,14 +73,43 @@ document.querySelector("button").addEventListener('click', function () {
 const createSocketConst = (topicId) => {
     let channel = socket.channel(`comments:${topicId}`, {})
     channel.join()
-        .receive("ok", resp => { console.log("Joined successfully", resp) })
-        .receive("error", resp => { console.log("Unable to join", resp) })
+        .receive("ok", resp => {
+            console.log("Joined successfully", resp.comments)
+            renderComments(resp.comments)
+        })
+        .receive("error", resp => {
+            console.log("Unable to join", resp)
+        })
+
+    channel.on(`comments:${topicId}:new`, renderSingleComment);
 
     document.querySelector("button").addEventListener('click', function () {
         const content = document.querySelector('textarea').value;
 
         channel.push('comment:add', {content: content})
     })
+}
+
+function renderComments(comments) {
+    const renderedComments = comments.map(comment => {
+       commentsTemplate(comment);
+    });
+
+    document.querySelector('.collection').innerHTML = renderedComments.join('');
+}
+
+function renderSingleComment(comment) {
+    const renderedSingleComment =  commentsTemplate(comment);
+
+    document.querySelector('.collection').innerHTML += renderedSingleComment;
+}
+
+function commentsTemplate(comment) {
+    return `
+            <li class="collection-item">
+                ${comment.content}
+            </li>
+        `
 }
 
 window.createSocket = createSocketConst
