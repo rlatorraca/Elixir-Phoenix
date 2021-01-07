@@ -100,8 +100,8 @@ function renderComments(comments) {
     document.querySelector('.collection').innerHTML = renderedComments.join('');
 }
 
-function renderSingleComment(comment) {
-    const renderedSingleComment = commentsTemplate(comment);
+function renderSingleComment(event) {
+    const renderedSingleComment = commentsTemplate(event.comment);
 
     document.querySelector('.collection').innerHTML += renderedSingleComment;
 }
