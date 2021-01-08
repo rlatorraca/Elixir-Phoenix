@@ -3,6 +3,7 @@ defmodule DiscussWeb.User do
   use Ecto.Schema
   import Ecto.Changeset
 
+  @derive {Jason.Encoder, only: [:email]}
 
   # Mostra como sera o schema dentro do DB
   schema "users" do

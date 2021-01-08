@@ -108,9 +108,16 @@ function renderSingleComment(event) {
 
 function commentsTemplate(comment) {
     document.querySelector(".materialize-textarea").value = "";
+    let email = 'Anonymous';
+    if (comment.user) {
+        email = comment.user.email;
+    }
     return `
             <li class="collection-item">
-                ${comment.content}
+                ${comment.content}                
+                <div class="secondary-content" >
+                    ${email}
+                </div>
             </li>
         `;
 }
